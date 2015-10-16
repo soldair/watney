@@ -1,0 +1,34 @@
+{
+  "name": "watney",
+  "version": "0.0.1",
+  "description": "how many potatoes?!",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "bin":{
+    "watney":"./bin/watney.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soldair/watney.git"
+  },
+  "keywords": [
+    "food",
+    "planning",
+    "grow",
+    "data"
+  ],
+  "author": "Ryan Day <soldair@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soldair/watney/issues"
+  },
+  "homepage": "https://github.com/soldair/watney#readme",
+  "devDependencies": {
+    "tape": "^4.2.1"
+  },
+  "dependencies": {
+    "yargs": "^3.27.0"
+  }
+}
